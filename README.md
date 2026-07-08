@@ -5,6 +5,7 @@ notepad $PROFILE
 ```
 添加函数
 ```
+function share { python -m http.server 8000 }
 function receive {
     # 获取当前 PowerShell 所在的目录
     $currentDir = Get-Location
